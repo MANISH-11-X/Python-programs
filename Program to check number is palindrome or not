@@ -1,0 +1,13 @@
+sum = 0
+n = int(input("Enter a number :"))
+c = n
+
+while n>0:
+    remainder = n%10  #modulo(%) gives last digit
+    sum = sum*10 + remainder
+    n = n//10  #removes last digit
+
+if c == sum:
+    print("Number is palindrome")
+else:
+    print("Number is not palindrome")
