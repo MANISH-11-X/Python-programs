@@ -1,0 +1,6 @@
+P = int(input("Enter principle amount :"))
+r = int(input("Enter rate :"))
+t = int(input("Enter time period :"))
+
+simple_interest = (P*r*t)/100
+print(simple_interest)
