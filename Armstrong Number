@@ -1,0 +1,14 @@
+sum = 0
+n = int(input("Enter a number :"))
+c = n
+
+while c>0:
+    remainder = c%10 
+    sum = sum + remainder**3
+    c = c//10  
+
+if sum == n:
+    print("Armstrong number")
+else:
+    print("Not an armstrong number")
+
