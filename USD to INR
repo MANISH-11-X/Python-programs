@@ -1,0 +1,4 @@
+usd = float(input("Enter USD($) value :"))
+usd_to_inr = usd*93.91
+print(usd_to_inr)
+
